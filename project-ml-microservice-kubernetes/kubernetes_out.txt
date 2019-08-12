@@ -1,0 +1,17 @@
+Tab 1:
+(.devops) (base) Dereks-MBP-2:project-ml-microservice-kubernetes derekwood$ ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "api-app" already exists
+NAME                       READY   STATUS    RESTARTS   AGE
+api-app-6d797449b7-bl6g2   1/1     Running   1          33m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+Tab 2:
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
