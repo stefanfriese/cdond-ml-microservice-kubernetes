@@ -1,6 +1,8 @@
 # cdond-ml-microservice-kubernetes
 Cloud DevOps Project - Operationalize a ML Microservice API using Kubernetes
 
+How-to instructions are in the "howto" directory.
+
 [![CircleCI](https://circleci.com/gh/dwood3/cdond-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/dwood3/cdond-ml-microservice-kubernetes)
 
 This repository contains material related to a Udacity course on scaling microservices with Kubernetes. In here, you'll find starting code for a project, in which you can containerize and deploy a machine learning srevice using Kubernetes.
