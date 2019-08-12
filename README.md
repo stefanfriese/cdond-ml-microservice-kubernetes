@@ -91,3 +91,17 @@ Your code has been rated at 10.00/10
 
 That's about it! When working with kubernetes, you may need to install some other libraries, but these instructions will set you up with an environment that can build and deploy Docker containers.
 
+## 2. Running Web App on Kubernetes Cluster
+To create docker container:
+```
+./run_docker.sh
+```
+
+Above step may be optional if image is on my docker hub.
+
+Next, run:
+```
+./run_kubernetes.sh
+```
+
+If not using the image on my docker hub, be sure to change the path to the image in run_kubernetes.

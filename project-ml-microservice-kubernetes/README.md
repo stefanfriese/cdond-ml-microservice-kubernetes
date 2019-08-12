@@ -1,7 +1,7 @@
--# cdond-ml-microservice-kubernetes
--Cloud DevOps Project - Operationalize a ML Microservice API using Kubernetes
+# cdond-ml-microservice-kubernetes
+Cloud DevOps Project - Operationalize a ML Microservice API using Kubernetes
 
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/dwood3/cdond-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/dwood3/cdond-ml-microservice-kubernetes)
 
 ## Project Overview
 
